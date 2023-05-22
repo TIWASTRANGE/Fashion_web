@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTER</title>
+    <link rel="stylesheet" href="/bootstrap-5.2.2-dist/css/bootstrap.css">
+    <script src="/js/bootstrap.js"></script>
+    <script src="forms.js"></script>
+</head>
+
+<body style="background-color:lightgrey;">
+
+
+
+    <header style="border-radius: 20px;">
+
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark" style=" padding-bottom: 30px;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"></a>
+                <img src="IMAGES/a (22).jpg" alt="Logo" style="width:80px;" class="rounded-pill">
+                <a href="index.html" style="padding: 20px;">HOME</a>
+                <a href="faqs.html" style="padding: 20px;">FAQ<sub>S</sub></a>
+                <a href="Log.html" style="padding: 20px;">LOGIN</a>
+                <a href="Reg.html" style="padding: 20px;">REGISTER</a>
+                <a href="users.html" style="padding: 20px;">USERS</a>
+
+            </div>
+        </nav>
+    </header>
+
+    <marquee behavior="move" direction="left">
+        <h1>REGISTER TO LEHNADE FASHION CAVE</h1>
+    </marquee>
+
+    <div class="container mt-3">
+
+        <form action="users.html">
+            <div class="mb-3 mt-3">
+                <label for="uname" class="form-label">Surname:</label>
+                <input type="text" class="form-control" id="uname" placeholder="Enter Surname" name="uname" required>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+            </div>
+
+            <div class="mb-3 mt-3">
+                <label for="uname" class="form-label">Last-name:</label>
+                <input type="text" class="form-control" id="lname" placeholder="Enter Last-name" name="uname" required>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.
+                </div>
+
+                <div class="mb-3">
+                    <label for="pwd" class="form-label">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter Email" name="email" required>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+
+                    <br>
+
+                    <div>
+                        <label for="uname" class="form-label" id="gender">Gender:</label><br>
+                        <label for="gender-male" id="male">male</label>
+                        <input type="radio" name="gender-choice" value="choice-1">
+
+                        <label for="gender-female" id="female">female</label>
+                        <input type="radio" name="gender-choice" value="choice-2">
+
+                        <label for="gender-other" id="others">others</label>
+                        <input type="radio" name="gender-choice" value="choice-3"><br>
+                    </div>
+
+                    <br>
+
+                    <div>
+                        <label for="Month">BIRTHDAY:</label>
+                        <select name="Month">
+				<option value="0" selected disabled>Month</option>
+				<option value="jan">January</option>
+				<option value="feb">Febuary</option>
+				<option value="march">March</option>
+				<option value="april">April</option>
+				<option value="may">May</option>
+				<option value="june">June</option>
+				<option value="july">July</option>
+				<option value="aug">August</option>
+				<option value="sep">September</option>
+				<option value="oct">October</option>
+				<option value="nov">November</option>
+				<option value="dec">December</option>
+			</select>
+                        <select name="Day">
+				<option value="0" selected disabled>Day</option>
+				<option value="1">01</option>
+				<option value="2">02</option>
+				<option value="3">03</option>
+				<option value="4">04</option>
+				<option value="5">05</option>
+				<option value="6">06</option>
+				<option value="7">07</option>
+				<option value="8">08</option>
+				<option value="9">09</option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+				<option value="12">12</option>
+				<option value="13">13</option>
+				<option value="14">14</option>
+				<option value="15">15</option>
+				<option value="16">16</option>
+				<option value="17">17</option>
+				<option value="18">18</option>
+				<option value="19">19</option>
+				<option value="20">20</option>
+				<option value="21">21</option>
+				<option value="22">22</option>
+				<option value="23">23</option>
+				<option value="24">24</option>
+				<option value="25">25</option>
+				<option value="26">26</option>
+				<option value="27">27</option>
+				<option value="28">28</option>
+				<option value="29">29</option>
+				<option value="30">30</option>
+				<option value="31">31</option>
+			</select>
+                        <select name="Year">
+			<option value="0" selected disabled>Year</option>
+			<option value="2022">2022</option>
+			<option value="2021">2021</option>
+			<option value="2020">2020</option>
+			<option value="2019">2019</option>
+			<option value="2018">2018</option>
+			<option value="2017">2017</option>
+			<option value="2016">2016</option>
+			<option value="2015">2015</option>
+			<option value="2014">2014</option>
+			<option value="2013">2013</option>
+			<option value="2012">2012</option>
+			<option value="2011">2011</option>
+			<option value="2010">2010</option>
+			<option value="">2009</option>
+			<option value="">2008</option>
+			<option value="">2007</option>
+			<option value="">2006</option>
+			<option value="">2005</option>
+			<option value="">2004</option>
+			<option value="">2003</option>
+			<option value="">2002</option>
+			<option value="">2001</option>
+			<option value="">2000</option>
+			<option value="">1999</option>
+			<option value="">1998</option>
+			<option value="">1997</option>
+			<option value="">1996</option>
+			<option value="">1995</option>
+			<option value="">1994</option>
+			<option value="">1993</option>
+			<option value="">1992</option>
+			<option value="">1991</option>
+			<option value="">1990</option>
+			<option value="">1989</option>
+			<option value="">1988</option>
+			<option value="">1987</option>
+			<option value="">1986</option>
+			<option value="">1985</option>
+			<option value="">1984</option>
+			<option value="">1983</option>
+			<option value="">1982</option>
+			<option value="">1981</option>
+			<option value="">1980</option>
+			<option value="">1979</option>
+			<option value="">1978</option>
+			<option value="">1977</option>
+			<option value="">1976</option>
+			<option value="">1975</option>
+			<option value="">1974</option>
+			<option value="">1973</option>
+			<option value="">1972</option>
+			<option value="">1971</option>
+			<option value="">1970</option>
+			<option value="">1969</option>
+			<option value="">1968</option>
+			<option value="">1967</option>
+			<option value="">1966</option>
+			<option value="">1965</option>
+			<option value="">1964</option>
+			<option value="">1963</option>
+			<option value="">1962</option>
+			<option value="">1961</option>
+			<option value="">1960</option>
+			<option value="" selected disabled>1959</option>
+		</select>
+                        <div class="mb-3">
+                            <label for="pwd" class="form-label">Password:</label>
+                            <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+                            <div class="valid-feedback">Valid.</div>
+                            <div class="invalid-feedback">Please fill out this field.</div><br>
+
+                            <div class="mb-3">
+                                <label for="pwd" class="form-label">Confirm Password:</label>
+                                <input type="password" class="form-control" id="c_pwd" placeholder="Confirm Password" name="pswd" required>
+                                <div class="valid-feedback">Valid.</div>
+                                <div class="invalid-feedback">Please fill out this field.</div>
+                            </div><br>
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" id="myCheck" name="remember" required>
+                                <label class="form-check-label" for="myCheck">I agree to all the <a href="">terms and privacy</a> of this form.</label>
+                                <div class="valid-feedback">Valid.</div>
+                                <div class="invalid-feedback">Check this checkbox to continue.</div>
+                            </div>
+
+                            <input type="submit" value="submit" onclick="show()" style="background-color:darkblue; box-shadow: 0 2px black; color: whitesmoke; ">
+                        </div>
+        </form>
+        </div>
+
+
+
+</body>
+
+</html>

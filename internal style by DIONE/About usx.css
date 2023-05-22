@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "open sans",sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right, #9c27b0, #8ecdff);
+}
+.about-us{
+    background-size: 55%;
+    background-color:;
+    overflow: hidden;
+    padding: 100px 0;
+  
+}
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: grey;
+    padding: 150px;
+    padding-top: -150px;
+    transform: translate(10%,-110%);
+}
+.img{
+    width: 50%;
+    height: 50%;
+}
+.mainheader{
+    background-color: gray;
+}
+.about-us header{
+    background-color: gray;
+    padding-top: 0;
+
+}
+.about-us header ol li{
+    display: flex;
+}
+.nav{
+    flex: 1;
+    color: #fdfdfd;
+    width: 80%;
+    position: sticky;
+    margin: 20px auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+.nav ul {
+    color: #fdfdfd;
+}
+.logo{
+    flex-basis: 20%;
+}
+.logo img{
+    width: 75px;
+    height: 75px;
+    justify-content: right;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.sponsor{
+    display: flex;
+}
+.sponsor h1{
+    text-align: center;
+}
+.pics img
+{
+ height: 150px;
+ width: 150px;
+ padding-left: 40px;
+}
+.foot{
+    background-color: rgb(49, 47, 47);
+    color: #fdfdfd;
+}
+.foot footer ol li{
+    padding-bottom: 1px;
+    display: flex;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+.foot footer ol li img{
+    padding: 2px;
+   }
+   .listone{
+    display: flex;
+}
+.listone ol{
+    padding: 60px;
+    margin-top:-20px;
+}
+.listone ol li a{
+    color: #fff;
+    text-decoration: underline;
+    
+}
+.listone ol img{
+    width: 30px;
+    height: 30px;
+}
+.mybox{
+    border-radius: 2px;
+    background-color: #fff;
+    padding-bottom: 20px;
+    margin-top: 15px;
+    display: block;
+}
+.flexboxone{
+    background-color: red;
+    display: flex;
+}
+.foot-two{
+    background-color: rgb(29, 28, 28);
+}
+.foot-two footer h3{
+margin-left: 50%;
+}

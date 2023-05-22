@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CSS Div Image Hover</title>
+	<style>
+		.container{
+			width: 90%;
+			padding: 20px;
+			margin: 100px auto;
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+
+		}
+		.box{
+			width: 250px;
+			margin: 0 10px;
+			box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+			transition: .5s;
+		}
+		.box img{
+			display: block;
+			width: 100%;
+			border-radius: 5px;
+		}
+		.box:hover{
+      transform: scale(1.7);
+      z-index: 2;
+		}
+	</style>
+</head>
+<body>
+<div class="container">
+	<div class="box">
+		<img src="IMAGES/design.jpg" style="height: 290px;">
+	</div>
+		<div class="box">
+			<img src="IMAGES/design2.jpg" style="height: 290px;">
+		</div>
+       <div class="box"> 
+       	<img src="IMAGES/a (1).jpg" style="height: 290px;">
+       	 </div>
+       <div class="box">
+        <img src="IMAGES/a (17).jpg" style="height: 290px;">
+         </div>
+         <div class="box">
+            <img src="IMAGES/a (22).jpg" style="height: 290px;">
+        </div>
+       
+</div>
+</body>
+</html> 
